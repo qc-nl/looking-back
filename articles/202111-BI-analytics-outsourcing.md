@@ -8,7 +8,7 @@ investors reporting
 
 
 fun:
-salesforce data extract
+salesforce data extract 
 ingest into redshift
 
 new:
