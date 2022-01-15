@@ -18,17 +18,27 @@ ingest into redshift
 
 ## something new for me:
 **sql with statements**\
+虽然下面的code snippet不是这个项目的，不过可以表达我的意思
+
 ```sql
-with map_table  as (select * from (SELECT e.gkg_mid, e.name, row_number() over(partition by e.gkg_mid order by  length(e.name) desc) as first_record
-FROM `pg-uk-n-app-573001.documents.document_log_dev` cross join
-UNNEST (entities) as e
-where e.gkg_mid != 'na'  
-order by e.name) 
+with map_table  as (
+    select * from (
+        SELECT 
+        e.gkg_mid, 
+        e.name, 
+        row_number() over(partition by e.gkg_mid order by length(e.name) desc) as first_record
+    FROM `pg-xx-n-app-xxxxxx.table.table_dev` cross join
+    UNNEST (entities) as e
+    where e.gkg_mid != 'na'  
+    order by e.name) 
 where first_record =1 
 )
 
-select distinct ent.name as org_name, ent.gkg_mid as id1, map_table.* from `pg-uk-n-app-573001.documents.document_log_dev` cross join
-UNNEST (entities) as ent
+select distinct 
+ent.name as org_name, 
+ent.gkg_mid as id1, 
+map_table.* from `pg-xx-n-app-xxxxxx.table.table_dev` 
+cross join UNNEST (entities) as ent
 left join map_table 
 on ent.gkg_mid = map_table.gkg_mid
 ```
