@@ -21,6 +21,7 @@ technology involved
 ## fun takeawys:
 salesforce data extract 
 ingest into redshift
+stakeholder management: 顾客的创始人是土耳其裔，在这个公司土耳其员工有自己专属的圈子，别看职务不高，却有着“通天”的信息渠道。
 
 ## something new for me:
 **sql with statements**\
