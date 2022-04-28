@@ -11,3 +11,7 @@ Data strategy
 这一刻，我有一种顿悟，为什么说Consulting是relation business，这和中国人为人处世的“关系”二字是何其类似。
 都说国外的业务看实力，不是看关系。在这个项目上，四大和BCG的公司的七家咨询公司占了3家，实力都差不多，同等实力才是看关系的时候。
 
+DCAM is the thinkging guide, not implementation guide. it helps you to 
+
+
+顾客更关注的是数据迁移，投资者不满意，我就被撤下了
