@@ -14,4 +14,7 @@ Data strategy
 DCAM is the thinkging guide, not implementation guide. it helps you to 
 
 
+"no one likes to see their role is ranked as low salary in your slides"
+
+
 顾客更关注的是数据迁移，投资者不满意，我就被撤下了
