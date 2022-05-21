@@ -18,3 +18,6 @@ DCAM is the thinkging guide, not implementation guide. it helps you to
 
 
 顾客更关注的是数据迁移，投资者不满意，我就被撤下了
+
+
+从多个数据管理框架形成自己的理论框架
